@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.subnav_about {
+	background: #f0f0ee;
+	height: 45px;
+	width: 100%;
+}
+.subnav_about ul {
+	width: 997px;
+	margin: 0 auto;
+}
+.subnav_about ul li a {
+	width: 332px;
+	float: left;
+	text-align: center;
+	line-height: 45px;
+}
+.subnav_about ul li a:hover {
+	background: url(../images/nav_btnbg_click.png) center center no-repeat;
+}
+
+
+.contact_content_word { }
+
+.contact_content_word  p { padding-top:20px; }
+.contact_content_word table { border:1px #CCCCCC solid; border-right:0px;border-bottom:0px; text-align:center; }
+.contact_content_word table td { border-bottom:1px #CCCCCC solid; border-right:1px #CCCCCC solid; background:#f4f4f4;}
+.contact_content_word table th { border-bottom:1px #CCCCCC solid; border-right:1px #CCCCCC solid; background:#E0E0E0;  }
+.tbody { display:block; position:relative; }

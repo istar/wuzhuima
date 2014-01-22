@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+h1 { color: #FFF; font-family:Verdana, Geneva, sans-serif; }
+
+h5 { color:#ccc;  font-family:Verdana, Geneva, sans-serif; }
+
+h3 { color:#F00; font-family:Verdana, Geneva, sans-serif;}
+
+
+/*=====Nav====*/
+.nav a { font-size:14px; color:#333; }
+.nav ul li a:hover { color: #00baff; }
+.subnav a { font-size:14px; color:#333;  }
+.subnav ul li a:hover { color: #FFF; }
+.subnav_about a { font-size:14px; color:#333;  }
+.subnav_about ul li a:hover { color: #FFF; }
+/*====End Nav====*/
+
+
+
+/*=====Index====*/
+.contain ul li a  { color:#ccc; }
+.contain ul li a:hover  { color:#00baff; }
+.contain ul li p { color:#333; }
+.contain ul li p b { font:bold ; color:#333;  }
+.contain_more { font-size:12px; color:#ccc;  }
+/*=====End Index====*/
+
+
+
+
+/*=====Footer=========*/
+.foot dl dt a , .foot dl dt { color:#fff; }
+.foot dl dd a { color:#999; }
+.foot dl dd { color:#999; }
+.footer dl dt { font-size:14px;}
+.footer dl dd { font-size:12px;}
+.foot dl dt a:hover { color: #00baff; }
+.foot dl dd a:hover { color: #00baff; }
+/*====End Footer======*/
+
+
+
+/*=====Work Content====*/
+.content_words_title { font-size:36px; 	color: #fff; }
+.content_words_news { font-size:14px; color: #fff;  }
+.main_work ul li { font-size:14px;  }
+.main_work_case ul li { font-size:14px;  }
+/*===End Work Content====*/
+
+.main_work ul li a span { color:#333;  }
+.main_work ul li a:hover span { color:#00baff;  }
+
+.main_work_case ul li a span { color:#333;  }
+.main_work_case ul li a:hover span { color:#00baff;  }
+
+.pager a { color:#333;  }
+.pager a:hover { color:#00baff;  }
