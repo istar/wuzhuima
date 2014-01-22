@@ -1,0 +1,144 @@
+@import url("work.css");
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, tr, th, td, img, dl, dt, dd, div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	background: #fff;
+	color: #333;
+	font:13px/21px 'Lucida Sans Unicode','Lucida Grande',Arial,Helvetica,sans-serif;
+}
+ul, ol {
+	list-style-type: none;
+}
+select, input, img, select {
+	vertical-align: middle;
+}
+a {
+	text-decoration: none;
+}
+
+
+/*=====index====*/
+/*---Header---*/
+.header {
+	background: #fff;
+	height: 94px;
+	width: 100%;
+	border-bottom: 2px #f2f2f2 solid;
+}
+.header_Menu {
+	width: 997px;
+	margin: 0 auto;
+	height: 95px;
+}
+.logo {
+	width: 355px;
+	height: 94px;
+	float: left;
+}
+.nav {
+	width: 642px;
+	height: 94px;
+	float: right;
+}
+.nav ul li {
+	float: right;
+	height: 94px;
+	line-height: 94px;
+}
+.nav ul li a {
+	float: right;
+	display: block;
+	border-bottom: 2px #f2f2f2 solid;
+	padding: 0 25px;
+}
+.nav ul li a:hover {
+	border-bottom: 2px #00baff solid;
+}
+/*---End Header---*/
+
+/*---Banner---*/
+.banner {
+	background: url(../images/banner_1.jpg) no-repeat center;
+	width: 100%;
+	height: 475px;
+}
+/*---End Banner---*/
+
+/*---Contain---*/
+.contain {
+	height: 255px;
+	width: 997px;
+	margin: 40px auto;
+}
+.contain ul li {
+	color: #333;
+	width: 331px;
+	height: 255px;
+	float: left;
+	border-left: 1px #efefef solid;
+}
+.contain ul li p {
+	display: block;
+	font-size: 12px;
+	width: 250px;
+	padding: 0px 0px 0px 40px;
+	line-height: 24px;
+	height: 80px;
+	float: left;
+}
+
+.contain_more { padding: 10px 30px 0px 0px;
+	float: right; }
+..contain_more {  }
+
+.contain_one {
+	width:331px; height:140px; float:left; 
+	background: url(../images/icon_about.jpg) center center no-repeat;
+}
+.contain_one:hover {
+	background: url(../images/icon_about_over.jpg) center center no-repeat;
+}
+.contain_two {
+		width:331px; height:140px; float:left; 
+	background: url(../images/icon_games.jpg) center center no-repeat;
+}
+.contain_two:hover {
+	background: url(../images/icon_games_over.jpg) center center no-repeat;
+}
+.contain_three {
+		width:331px; height:140px; float:left; 
+	background: url(../images/icon_contact.jpg) center center no-repeat;
+
+}
+.contain_three_border-right { 	border-right: 1px #efefef solid; }
+.contain_three:hover {
+	background: url(../images/icon_contact_over.jpg) center center no-repeat;
+}
+/*====Linker====*/
+.linker {
+	height: 98px;
+	width: 100%;
+	margin: 40px auto;
+	background: #efefef;
+}
+.link_1 {
+	width: 997px;
+	margin: 40px auto;
+}
+/*====End Linker====*/
+
+/*====Footer====*/
+.footer {
+	height: 275px;
+	width: 100%;
+	background: #333;
+	margin: 40px auto;
+}
+.foot { width:997px; height:275px; margin:0 auto; }
+.foot dl { height: 225px; margin:50px 0px 0px 0px; float:left;   }
+.footer_A { width:165px; float:left;   }
+.footer_B  { width:330px;  float:left;  }
+/*====End Footer====*/
