@@ -8,7 +8,50 @@
 </head>
 <body>
 
-<%= yield %>
+<div id="container">
+	<div class="header">
+    <div class="header_Menu">
+      <div class="logo"><a>乌骓马</a></div>
+      <div class="nav">
+        <ul>
+          <li><a href="contact.html">联系我们<img src="images/contact_icon.png" width="23" height="33"/></a></li>
+          <li><a href="join.html">人才招聘</a></li>
+          <li><a href="about.html">关于我们</a></li>
+          <li><a href="work.html">产品案例</a></li>
+          <li><a href="index.html">首&nbsp;&nbsp;页</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+	<%= yield %>
+	
+	<div class="footer">
+    <div class="foot">
+    	<dl class="footer_A">
+      	<dt><a href="about.html">关于</a></dt>
+          <dd><a href="about.html">公司简介</a></dd>
+          <dd><a href="about_future.html">公司战略</a></dd>
+          <dd><a href="join.html">招贤纳士</a></dd>
+      </dl>
+      <dl class="footer_A">
+      	<dt><a href="work.html">栏目</a></dt>
+          <dd><a href="work_case.html">成功案例</a></dd>
+          <dd><a href="work_After.html">售后服务</a></dd>
+      </dl>
+      <dl class="footer_B">
+      	<dt><a href="contact.html">联系我们</a></dt>
+          <dd>地址：上海市闵行区宝城路158弄38号1205室</dd>
+  		<dd>电话：021-54155012 </dd>
+  		<dd>邮编：201199</dd>
+      </dl>
+      <dl class="footer_B">
+      	<dt>版权信息</dt>
+          <dd>展示的全部产品归江苏乌骓马文化发展有限公司所有<br/>Copyright © 2014</dd>
+      </dl>
+      </div>
+  </div>
+</div>
 
 </body>
 </html>
