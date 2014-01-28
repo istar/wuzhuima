@@ -24,7 +24,6 @@ body {
 section {
     padding-top: 80px;
     padding-bottom: 50px;
-    text-align: center;
 }
 
 p {
@@ -216,7 +215,7 @@ a:hover {
 #header {
     overflow: hidden;
     height: auto;
-    background: url('/home/images/home.jpg') fixed no-repeat;
+    background: url('/home/images/home1.jpg') fixed no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
